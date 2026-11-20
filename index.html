@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Languages</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: rgb(20, 20, 20);
+      color: white;
+      font-size: 20px;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+    }
+
+    .welcome-message {
+      margin: 5%;
+      padding: 10%;
+    }
+
+    .language-links {
+      margin: 0px;
+      padding: 40px;
+      background-color: rgb(54, 52, 108);
+      height: 100%;
+    }
+
+    .language-link {
+      text-align: center;
+      display: inline-block;
+      width: 400px;
+      padding: 20px;
+      background-color: rgb(85, 81, 165);
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      margin: 20px;
+      font-size: 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="welcome-message">
+      <h1>WELCOME TO OUR GRAMMAR GUIDE SITE</h1>
+      <div>Here you can find resources to help you learn and practice different languages.</div>
+    </div>
+    <div class="language-links">
+      <h1>Choose the language you want to study</h1>
+      <a href="english/english.html" class="language-link">English</a><br>
+      <a href="german/german.html" class="language-link">German</a><br>
+      <a href="#" class="language-link">Portuguese</a><br>
+      <a href="#" class="language-link">Spanish</a><br>
+    </div>
+  </div>
+  <script>
+    // Seleciona todos os elementos com a classe "language-link"
+    const botoes = document.querySelectorAll('.language-link');
+
+    botoes.forEach(botao => {
+      // Garante uma animação suave (opcional, mas recomendado)
+      botao.style.transition = 'transform 0.2s ease';
+
+      // Aumenta em 10% quando o mouse entra
+      botao.addEventListener('mouseenter', () => {
+        botao.style.transform = 'scale(1.1)';
+      });
+
+      // Volta ao tamanho original quando o mouse sai
+      botao.addEventListener('mouseleave', () => {
+        botao.style.transform = 'scale(1)';
+      });
+    });
+  </script>
+</body>
+
+</html>
