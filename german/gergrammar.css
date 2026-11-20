@@ -28,10 +28,8 @@ body {
 }
 
 .pronouns-grid {
-  margin: 20px auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 12px 24px;
 }
 .example-pair {
   margin: 10px auto;
@@ -74,4 +72,10 @@ body {
 .prepositions-list {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+}
+
+.example-pair {
+  background-color: rgb(50, 50, 50);
+  padding: 20px;
+  border-radius: 10px;
 }
