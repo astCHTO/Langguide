@@ -34,10 +34,22 @@ body {
   gap: 12px 24px;
 }
 
+.pronouns-grid div {
+  background-color: rgb(50, 50, 50);
+  padding: 20px;
+  border-radius: 10px;
+}
+
 .interrogative-pronouns {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 12px 24px;
+}
+
+.interrogative-pronouns div {
+  background-color: rgb(50, 50, 50);
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .verb-to-be {
@@ -46,10 +58,23 @@ body {
   gap: 12px 24px;
 }
 
+.verb-to-be div {
+  background-color: rgb(50, 50, 50);
+  padding: 20px;
+  border-radius: 10px;
+}
+
 .regular-verbs-by-conjugation {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 12px 24px;
+}
+
+.regular-verbs-by-conjugation div {
+  background-color: rgb(50, 50, 50);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
 }
 
 .modal-verbs {
@@ -58,8 +83,20 @@ body {
   gap: 12px 24px;
 }
 
+.modal-verbs div {
+  background-color: rgb(50, 50, 50);
+  padding: 20px;
+  border-radius: 10px;
+}
+
 .adverbs {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 12px 24px;
+}
+
+.adverbs div {
+  background-color: rgb(50, 50, 50);
+  padding: 20px;
+  border-radius: 10px;
 }

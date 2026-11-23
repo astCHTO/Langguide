@@ -1,0 +1,97 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  padding: 0;
+  background-color: rgb(20, 20, 20);
+  color: white;
+  font-size: 20px;
+}
+
+.table {
+  background-color: rgb(200, 100, 0);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+
+.table td {
+  padding: 10px;
+}
+
+.pronouns-examples {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.pronouns-examples div {
+  background-color: rgb(50, 50, 50);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.int-pronouns-examples {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.int-pronouns-examples div {
+  background-color: rgb(50, 50, 50);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.ser-examples {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.ser-examples div {
+  background-color: rgb(50, 50, 50);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.conjugation-examples {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.conjugation-examples div {
+  background-color: rgb(50, 50, 50);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.modal-verbs {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.modal-verbs div {
+  background-color: rgb(50, 50, 50);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.adverbs {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.adverbs div {
+  background-color: rgb(50, 50, 50);
+  padding: 10px;
+  border-radius: 10px;
+}
